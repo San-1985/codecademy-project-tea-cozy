@@ -14,16 +14,6 @@ body {
     margin-top: 0;
 }
 
-footer {
-    text-align: center;
-}
-
-#copyright {
-    text-align: left;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
 header {
     width: 100%;
     position: fixed;
@@ -33,6 +23,12 @@ header {
     border-bottom: 1px solid seashell;
     background-color: black;
     z-index: 100;
+}
+
+#logo {
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
 }
 
 nav {
@@ -51,11 +47,6 @@ nav a {
     color: seashell;
 }
 
-#logo {
-    height: 50px;
-    margin: auto;
-    margin-left: 10px;
-}
 
 h4 {
     margin-top: .8rem;
@@ -65,11 +56,6 @@ h4 {
 h2 {
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
-}
-
-#background {
-    max-height: 700px;
-    margin-top: 70px;
 }
 
 #mission_div {
@@ -90,8 +76,7 @@ h2 {
 #tea_div {
     max-width: 1000px;
     margin: auto;
-    margin-top: 50px;
-    
+    margin-top: 50px;  
 }
 
 #tea_pics {
@@ -142,14 +127,8 @@ h2 {
     margin-bottom: 30px;
 }
 
-address a {
-    font-style: normal;
-    text-decoration: none;
-    color: seashell;
-    font-size: 22px;
-}
-
 footer {
+    text-align: center;
     height: 200px;
 }
 
@@ -159,4 +138,17 @@ footer h2 {
 
 footer h5 {
     margin-bottom: 25px;
+}
+
+address a {
+    font-style: normal;
+    text-decoration: none;
+    color: seashell;
+    font-size: 22px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
